@@ -1,4 +1,4 @@
-development:
+production:
   adapter: postgresql
   host: localhost
   username: user
@@ -7,15 +7,15 @@ development:
 test:
   adapter: postgresql
   encoding: utf8
-  database: project_test
+  database: kn_test
   pool: 5
-  username: 
-  password:
+  username: kn_user
+  password: 123456
 
-production:
+development:
   adapter: postgresql
   encoding: utf8
-  database: project_production
+  database: kn_development
   pool: 5
-  username: 
-  password:
+  username: kn_user
+  password: 123456
